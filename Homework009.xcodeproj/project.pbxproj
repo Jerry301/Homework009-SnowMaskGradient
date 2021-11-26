@@ -7,15 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		069E5B0E2750AFD000024974 /* PhotoImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 069E5B0D2750AFD000024974 /* PhotoImageView.swift */; };
 		06C268E8274F6B6800287323 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06C268E7274F6B6800287323 /* AppDelegate.swift */; };
 		06C268EA274F6B6800287323 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06C268E9274F6B6800287323 /* SceneDelegate.swift */; };
 		06C268EC274F6B6800287323 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06C268EB274F6B6800287323 /* ViewController.swift */; };
 		06C268EF274F6B6800287323 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 06C268ED274F6B6800287323 /* Main.storyboard */; };
 		06C268F1274F6B6900287323 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 06C268F0274F6B6900287323 /* Assets.xcassets */; };
 		06C268F4274F6B6900287323 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 06C268F2274F6B6900287323 /* LaunchScreen.storyboard */; };
+		06C268FC274F81AE00287323 /* SnowViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06C268FB274F81AE00287323 /* SnowViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		069E5B0D2750AFD000024974 /* PhotoImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoImageView.swift; sourceTree = "<group>"; };
 		06C268E4274F6B6800287323 /* Homework009.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Homework009.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		06C268E7274F6B6800287323 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		06C268E9274F6B6800287323 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +27,7 @@
 		06C268F0274F6B6900287323 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		06C268F3274F6B6900287323 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		06C268F5274F6B6900287323 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		06C268FB274F81AE00287323 /* SnowViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnowViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +63,8 @@
 				06C268E7274F6B6800287323 /* AppDelegate.swift */,
 				06C268E9274F6B6800287323 /* SceneDelegate.swift */,
 				06C268EB274F6B6800287323 /* ViewController.swift */,
+				06C268FB274F81AE00287323 /* SnowViewController.swift */,
+				069E5B0D2750AFD000024974 /* PhotoImageView.swift */,
 				06C268ED274F6B6800287323 /* Main.storyboard */,
 				06C268F0274F6B6900287323 /* Assets.xcassets */,
 				06C268F2274F6B6900287323 /* LaunchScreen.storyboard */,
@@ -139,7 +145,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				06C268EC274F6B6800287323 /* ViewController.swift in Sources */,
+				06C268FC274F81AE00287323 /* SnowViewController.swift in Sources */,
 				06C268E8274F6B6800287323 /* AppDelegate.swift in Sources */,
+				069E5B0E2750AFD000024974 /* PhotoImageView.swift in Sources */,
 				06C268EA274F6B6800287323 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
